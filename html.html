@@ -168,11 +168,27 @@
         </section>
 
         <footer>
-            <p>&copy; 2024 Ebook o Tradingu. Wszelkie prawa zastrzeżone.</p>
+            <p>&copy; 2023 Ebook o Tradingu. Wszelkie prawa zastrzeżone.</p>
             <p><a href="regulamin.html" target="_blank" style="color: white;">Regulamin</a></p>
         </footer>
     </div>
 
     <script src="script.js"></script>
+    <script>
+        function translateTo(language) {
+            // Sprawdź, czy przeglądarka obsługuje tłumaczenie
+            if ('translate' in navigator) {
+                navigator.translate([{ from: 'auto', to: language }])
+                    .then(translation => {
+                        document.body.innerHTML = translation;
+                    })
+                    .catch(error => {
+                        console.error('Błąd tłumaczenia:', error);
+                    });
+            } else {
+                console.warn('Przeglądarka nie obsługuje tłumaczenia.');
+            }
+        }
+    </script>
 </body>
 </html>
