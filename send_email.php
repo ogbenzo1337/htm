@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $to = "twoj.email@przyklad.com"; // Zaktualizuj to na swój adres e-mail
+    $to = "hedphdo@gmail.com"; // Zaktualizuj to na swój adres e-mail
     $subject = "Nowa wiadomość od $name";
     $email_content = "Imię: $name\n";
     $email_content .= "Email: $email\n\n";
