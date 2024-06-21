@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* Stylowanie całej strony */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
 /* Style dla stopki */
 footer {
     position: absolute;
