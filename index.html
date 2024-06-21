@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-papierosy Jednorazowe</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
             <ul>
                 <li><a href="#home">Strona Główna</a></li>
                 <li><a href="#products">Produkty</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#" id="contact-link">Kontakt</a></li>
             </ul>
         </nav>
     </header>
@@ -44,7 +45,7 @@
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" style="display: none;">
         <h2>Kontakt</h2>
         <p>Masz pytania? Skontaktuj się z nami!</p>
         <form action="send_email.php" method="post">
