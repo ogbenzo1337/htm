@@ -88,29 +88,30 @@ section h2 {
     background-color: #333;
 }
 
-form {
+#contact form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-form label {
+#contact form label {
     margin-top: 10px;
 }
 
-form input, form textarea {
+#contact form input, #contact form textarea {
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-size: 14px;
 }
 
-form button {
+#contact form button {
     background-color: #000;
     color: white;
     padding: 10px 20px;
@@ -120,7 +121,7 @@ form button {
     margin-top: 10px;
 }
 
-form button:hover {
+#contact form button:hover {
     background-color: #333;
 }
 
