@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 }
 
 header {
-    background-color: #000;
-    color: white;
+    background-color: #fff;
+    color: black;
     padding: 10px 0;
     text-align: center;
 }
@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -32,9 +32,9 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 1000px;
-    background-color: #f9f9f9;
+    background-color: #333;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 
 section h2 {
@@ -51,12 +51,12 @@ section h2 {
 
 .product {
     text-align: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #000;
+    border: 1px solid #555;
     border-radius: 8px;
     padding: 10px;
     max-width: 200px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(255,255,255,0.1);
 }
 
 .product img {
@@ -67,16 +67,17 @@ section h2 {
 
 .product h3 {
     margin-top: 10px;
+    color: #fff;
 }
 
 .price {
-    color: #000;
+    color: #fff;
     font-weight: bold;
 }
 
 .buy-button {
-    background-color: #000;
-    color: white;
+    background-color: #fff;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -85,7 +86,7 @@ section h2 {
 }
 
 .buy-button:hover {
-    background-color: #333;
+    background-color: #ddd;
 }
 
 #contact form {
@@ -93,27 +94,30 @@ section h2 {
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #000;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 
 #contact form label {
     margin-top: 10px;
+    color: #fff;
 }
 
 #contact form input, #contact form textarea {
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #555;
     font-size: 14px;
+    background-color: #333;
+    color: #fff;
 }
 
 #contact form button {
-    background-color: #000;
-    color: white;
+    background-color: #fff;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -122,12 +126,12 @@ section h2 {
 }
 
 #contact form button:hover {
-    background-color: #333;
+    background-color: #ddd;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #000;
-    color: white;
+    background-color: #fff;
+    color: black;
 }
