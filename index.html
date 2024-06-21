@@ -1,209 +1,63 @@
-
-
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprzedaż Ebooka o Tradingu</title>
+    <title>E-papierosy Jednorazowe</title>
     <link rel="stylesheet" href="styles.css">
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-TMYYH2EFSG');
-    </script>
-    
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Ebook o Tradingu</h1>
-            <nav>
-                <ul>
-                    <li><a href="#" onclick="toggleSection('powitanie')">Wstęp</a></li>
-                    <li><a href="#" onclick="toggleSection('ebook_info')">O Ebooku</a></li>
-                    <li><a href="#" onclick="toggleSection('zawartosc')">Zawartość</a></li>
-                    <li><a href="#" onclick="toggleSection('o_autorze')">O Autorze</a></li>
-                    <li><a href="#" onclick="toggleSection('kup_teraz')">Kup Teraz</a></li>
-                    <li><a href="#" onclick="toggleSection('opinie')">Opinie</a></li>
-                </ul>
-            </nav>
-        </header>
-
-
-        <section class="frame" id="opinie" style="display: none;">
-            <h2 style="text-align: center;">Opinie</h2>
-            <div class="opinie-container">
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p>Wracam tu po miesiącu od przeczytania poradnika i jestem poki co 100$ na + także polecam </p>
-                    </div>
-                </div>
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p>Jestem zadowolony z tego e-booka gorąco polecam.</p>
-                    </div>
-                </div>
-
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p>Godne polecenia</p>
-                    </div>
-                </div>
-
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p>Polecam</p>
-                    </div>
-                </div>
-
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p>++</p>
-                    </div>
-                </div>
-
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p>Wygląda ciekawie </p>
-                    </div>
-                </div>
-
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p>Dzięki temu juz wszystko rozumiem i teraz wydaje sie to łatwe</p>
-                    </div>
-                </div>
-
-                <div class="opinia">
-                    <div class="zdjecie-profilowe">
-                        <img class="profile-pic" src="pobrany plik.jpeg" alt="Profile Picture">
-                    </div>
-                    <div class="komentarz">
-                        <p class="gwiazdki">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p>Mąż zadowolony </p>
-                    </div>
-                </div>
-                <!-- Dodaj więcej opinii według potrzeb -->
-            </div>
-        </section>
-        
-
-        <section class="frame" id="powitanie" style="text-align: center;">
-            <h2>Witaj na stronie Ebooka o Tradingu!</h2>
-            <p>Zapraszamy do zapoznania się z naszym przewodnikiem po tradingu. Dowiedz się więcej o zawartości ebooka oraz autorze. Gotów do rozpoczęcia podróży przez świat tradingu? Wybierz jedną z opcji w menu nawigacyjnym powyżej!</p>
-        </section>
-
-
-        <section class="frame" id="kup_teraz" style="text-align: center;">
-            <h2>Informacje o Ebooku</h2>
-            <div class="ebook-details">
-                <div class="ebook-cover">
-                    <img src="ebook.jpg" alt="Okładka Ebooka">
-                </div>
-                <div class="ebook-info">
-                    <p><strong>Tytuł:</strong> Tajniki Tradingu</p>
-                    <p><strong>Autor:</strong> Day Trading 777</p>
-                    <p><strong class="price-frame price-animation">Cena:</strong> 30 PLN</p>
-                    <button onclick="window.location.href='https://www.paypal.com/donate/?hosted_button_id=4PNN4NZWD2K4U';">Kup Teraz</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="frame" id="ebook_info">
-            <h2 style="text-align: center;">O Ebooku</h2>
-            <p>Ebook "Tajniki Tradingu" to zaawansowany przewodnik dla doświadczonych traderów, którzy pragną poszerzyć swoją wiedzę i umiejętności w handlu na rynkach finansowych. Książka skupia się na złożonych strategiach tradingowych, analizie technicznej i fundamentalnej oraz zaawansowanych metodach zarządzania ryzykiem.</p>
-            <p>W tej książce znajdziesz:</p>
+    <header>
+        <h1>E-papierosy Jednorazowe</h1>
+        <nav>
             <ul>
-                <li>Zaawansowane strategie inwestycyjne, w tym day trading, swing trading i scalping.</li>
-                <li>Analizę techniczną opartą na wskaźnikach technicznych, formacjach cenowych i analizie harmonicznej.</li>
-                <li>Metody wykorzystywane przez profesjonalnych traderów do identyfikacji trendów i punktów wejścia/wyjścia.</li>
-                <li>Zarządzanie ryzykiem i emocjami w trakcie handlu, w tym techniki psychologiczne i plany tradingowe.</li>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#products">Produkty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
-            <p>Ten ebook jest niezbędnym narzędziem dla traderów, którzy chcą podnieść swoje umiejętności i osiągnąć sukces na rynkach finansowych.</p>
-        </section>
+        </nav>
+    </header>
 
-        
+    <section id="home">
+        <h2>Witamy w naszym sklepie!</h2>
+        <p>Oferujemy najwyższej jakości jednorazowe e-papierosy w konkurencyjnych cenach.</p>
+    </section>
 
-        <section class="frame" id="zawartosc" style="display: none;">
-            <h2 style="text-align: center;">Zawartość</h2>
-            <ul>
-                <li>Wprowadzenie do tradingu</li>
-                <li>Strategie tradingowe</li>
-                <li>Analiza techniczna i fundamentalna</li>
-                <li>Ryzyko i zarządzanie kapitałem</li>
-            </ul>
-        </section>
+    <section id="products">
+        <h2>Nasze Produkty</h2>
+        <div class="product">
+            <img src="ebook.html" alt="E-papieros 1">
+            <h3>E-papieros 1</h3>
+            <p>Opis produktu 1.</p>
+            <p class="price">50 PLN</p>
+            <button class="buy-button">Kup teraz</button>
+        </div>
+        <div class="product">
+            <img src="ebook.jpg" alt="E-papieros 2">
+            <h3>E-papieros 2</h3>
+            <p>Opis produktu 2.</p>
+            <p class="price">60 PLN</p>
+            <button class="buy-button">Kup teraz</button>
+        </div>
+        <!-- Dodaj więcej produktów według potrzeb -->
+    </section>
 
-        <section class="frame" id="o_autorze" style="display: none;" style="text-align: center;">
-            <h2 style="text-align: center;">O Autorze</h2>
-            <p>XYZ jest doświadczonym traderem, który ma wieloletnie doświadczenie na rynkach finansowych. </p>
-                <p>XYZ jest doświadczonym traderem oraz ekspertem w dziedzinie rynków finansowych. Posiada wieloletnie doświadczenie w handlu akcjami, walutami, surowcami i kryptowalutami. Jest autorem kilku bestsellerowych książek o tradingu, które pomogły tysiącom osób osiągnąć sukces na giełdzie.</p>
-        <p>XYZ jest również wykładowcą na prestiżowych konferencjach i szkoleniach z zakresu tradingu. Jego wiedza i doświadczenie są doceniane przez społeczność inwestycyjną, a jego praktyczne podejście do tematu sprawia, że jego materiały są łatwo przyswajalne dla każdego.</p>
-        <p>Zapoznaj się z najnowszym ebookiem XYZ i poszerz swoją wiedzę na temat tradingu!</p>
-        </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania? Skontaktuj się z nami!</p>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
 
-        <section id="visit-counter" style="text-align: center;">
-            <h2>Liczba odwiedzających w ciągu ostatnich 24 godzin:</h2>
-            <p id="visitor-count">0</p>
-        </section>
-
-        <footer>
-            <p>&copy; 2024 Ebook o Tradingu. Wszelkie prawa zastrzeżone.</p>
-            <p><a href="regulamin.html" target="_blank" style="color: white;">Regulamin</a></p>
-        </footer>
-    </div>
-
-    <script src="script.js"></script>
-    <script>
-        function translateTo(language) {
-            // Sprawdź, czy przeglądarka obsługuje tłumaczenie
-            if ('translate' in navigator) {
-                navigator.translate([{ from: 'auto', to: language }])
-                    .then(translation => {
-                        document.body.innerHTML = translation;
-                    })
-                    .catch(error => {
-                        console.error('Błąd tłumaczenia:', error);
-                    });
-            } else {
-                console.warn('Przeglądarka nie obsługuje tłumaczenia.');
-            }
-        }
-    </script>
+    <footer>
+        <p>&copy; 2024 E-papierosy Jednorazowe. Wszelkie prawa zastrzeżone.</p>
+    </footer>
 </body>
 </html>
