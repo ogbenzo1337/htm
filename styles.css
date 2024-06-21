@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff;
+    color: #000;
 }
 
 header {
-    background-color: #333;
+    background-color: #000;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -31,7 +32,7 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 1000px;
-    background-color: white;
+    background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -69,12 +70,12 @@ section h2 {
 }
 
 .price {
-    color: green;
+    color: #000;
     font-weight: bold;
 }
 
 .buy-button {
-    background-color: #28a745;
+    background-color: #000;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -84,7 +85,7 @@ section h2 {
 }
 
 .buy-button:hover {
-    background-color: #218838;
+    background-color: #333;
 }
 
 form {
@@ -104,7 +105,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #000;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -114,12 +115,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: #333;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #000;
     color: white;
 }
